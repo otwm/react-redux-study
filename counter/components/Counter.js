@@ -24,6 +24,9 @@ class Counter extends Component {
     }
 
     render() {
+        /**
+         * 증가나 감소 같은 실제 로직연산은 프로퍼티로서 받는다.
+         */
         const {value, onIncrement, onDecrement} = this.props
         return (
             <p>
