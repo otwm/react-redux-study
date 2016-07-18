@@ -1,5 +1,6 @@
 import expect from 'expect';
 import counter from '../../reducers';
+
 describe('reducers', () => {
     describe('counter', () => {
         it('초기값 설정', () => {
