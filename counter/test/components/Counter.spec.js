@@ -30,7 +30,7 @@ function setup(value = 0) {
 
 
 describe('Counter component', () => {
-    it('카운트 체킹', () => {
+    it('초기 카운트 체킹', () => {
         const {p} = setup()
         expect(p.text()).toMatch(/^Clicked: 0 times/)
     })
