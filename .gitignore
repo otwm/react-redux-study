@@ -95,3 +95,6 @@ dist/
 /.idea/misc.xml
 /.idea/modules.xml
 /react-redux-study.iml
+/sandbox/sandbox.iml
+/study/study.iml
+/counter/counter.iml
